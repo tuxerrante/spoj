@@ -3,8 +3,9 @@ package main
 import (
    "fmt"
 )
-
+// http://www.spoj.com/problems/PRIME1/
 // (1 <= m <= n <= 1.000.000.000, n-m<=100000
+
 func printPrimes(m, n int32) {
    if m==1{       
       m = 2 
